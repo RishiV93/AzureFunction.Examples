@@ -24,7 +24,7 @@ namespace AzureFunction.Examples.Services
             {
                 return _cosmosClient.
                     GetDatabase(_configuration["Azure:Cosmos:Database"]).
-                    GetContainer(_configuration["Azure:Cosmos:Containers:Ride"]);
+                    GetContainer(_configuration["Azure:Cosmos:Containers:Rides"]);
             }
         }
 
